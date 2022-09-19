@@ -2,7 +2,7 @@ syntax = "proto3";
 package payments;
 
 service Bitcoin {
-    rpc sendPayment (BTCPaymentRequest) returns (BTCPaymentRespnse);
+    rpc SendPayment (BTCPaymentRequest) returns (BTCPaymentResponse);
 }
 
 message BTCPaymentRequest {
